@@ -15,6 +15,9 @@
 		440CC0F225FE6E70000F8C0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 440CC0F025FE6E70000F8C0C /* LaunchScreen.storyboard */; };
 		440CC0FD25FE6E70000F8C0C /* NotificationCenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440CC0FC25FE6E70000F8C0C /* NotificationCenterTests.swift */; };
 		440CC10825FE6E70000F8C0C /* NotificationCenterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440CC10725FE6E70000F8C0C /* NotificationCenterUITests.swift */; };
+		440CC11925FE6ECD000F8C0C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440CC11825FE6ECD000F8C0C /* SecondViewController.swift */; };
+		440CC11F25FEA425000F8C0C /* Facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 440CC11D25FEA425000F8C0C /* Facebook.png */; };
+		440CC12025FEA425000F8C0C /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 440CC11E25FEA425000F8C0C /* twitter.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		440CC10325FE6E70000F8C0C /* NotificationCenterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotificationCenterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		440CC10725FE6E70000F8C0C /* NotificationCenterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterUITests.swift; sourceTree = "<group>"; };
 		440CC10925FE6E70000F8C0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		440CC11825FE6ECD000F8C0C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		440CC11D25FEA425000F8C0C /* Facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Facebook.png; path = ../../../../Downloads/Facebook.png; sourceTree = "<group>"; };
+		440CC11E25FEA425000F8C0C /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twitter.png; path = ../../../../Downloads/twitter.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +109,10 @@
 				440CC0E725FE6E6C000F8C0C /* SceneDelegate.swift */,
 				440CC0E925FE6E6C000F8C0C /* ViewController.swift */,
 				440CC0EB25FE6E6C000F8C0C /* Main.storyboard */,
+				440CC11825FE6ECD000F8C0C /* SecondViewController.swift */,
 				440CC0EE25FE6E70000F8C0C /* Assets.xcassets */,
+				440CC11D25FEA425000F8C0C /* Facebook.png */,
+				440CC11E25FEA425000F8C0C /* twitter.png */,
 				440CC0F025FE6E70000F8C0C /* LaunchScreen.storyboard */,
 				440CC0F325FE6E70000F8C0C /* Info.plist */,
 			);
@@ -232,6 +241,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				440CC0F225FE6E70000F8C0C /* LaunchScreen.storyboard in Resources */,
+				440CC11F25FEA425000F8C0C /* Facebook.png in Resources */,
+				440CC12025FEA425000F8C0C /* twitter.png in Resources */,
 				440CC0EF25FE6E70000F8C0C /* Assets.xcassets in Resources */,
 				440CC0ED25FE6E6C000F8C0C /* Main.storyboard in Resources */,
 			);
@@ -258,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				440CC11925FE6ECD000F8C0C /* SecondViewController.swift in Sources */,
 				440CC0EA25FE6E6C000F8C0C /* ViewController.swift in Sources */,
 				440CC0E625FE6E6C000F8C0C /* AppDelegate.swift in Sources */,
 				440CC0E825FE6E6C000F8C0C /* SceneDelegate.swift in Sources */,
