@@ -15,6 +15,8 @@
 		4479C9DB25FDFAA4009F702E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4479C9D925FDFAA4009F702E /* LaunchScreen.storyboard */; };
 		4479C9E625FDFAA4009F702E /* sagueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4479C9E525FDFAA4009F702E /* sagueTests.swift */; };
 		4479C9F125FDFAA4009F702E /* sagueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4479C9F025FDFAA4009F702E /* sagueUITests.swift */; };
+		4479CA0225FDFB49009F702E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4479CA0125FDFB49009F702E /* DetailViewController.swift */; };
+		4479CA0725FDFB96009F702E /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4479CA0625FDFB96009F702E /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		4479C9EC25FDFAA4009F702E /* sagueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sagueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4479C9F025FDFAA4009F702E /* sagueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sagueUITests.swift; sourceTree = "<group>"; };
 		4479C9F225FDFAA4009F702E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4479CA0125FDFB49009F702E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		4479CA0625FDFB96009F702E /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				4479C9D025FDFAA3009F702E /* SceneDelegate.swift */,
 				4479C9D225FDFAA3009F702E /* ViewController.swift */,
 				4479C9D425FDFAA3009F702E /* Main.storyboard */,
+				4479CA0625FDFB96009F702E /* ThirdViewController.swift */,
+				4479CA0125FDFB49009F702E /* DetailViewController.swift */,
 				4479C9D725FDFAA4009F702E /* Assets.xcassets */,
 				4479C9D925FDFAA4009F702E /* LaunchScreen.storyboard */,
 				4479C9DC25FDFAA4009F702E /* Info.plist */,
@@ -260,7 +266,9 @@
 			files = (
 				4479C9D325FDFAA3009F702E /* ViewController.swift in Sources */,
 				4479C9CF25FDFAA3009F702E /* AppDelegate.swift in Sources */,
+				4479CA0725FDFB96009F702E /* ThirdViewController.swift in Sources */,
 				4479C9D125FDFAA3009F702E /* SceneDelegate.swift in Sources */,
+				4479CA0225FDFB49009F702E /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
