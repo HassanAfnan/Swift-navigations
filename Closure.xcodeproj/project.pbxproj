@@ -15,6 +15,7 @@
 		440C6B2C260694BD00803908 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 440C6B2A260694BD00803908 /* LaunchScreen.storyboard */; };
 		440C6B37260694BE00803908 /* ClosureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440C6B36260694BE00803908 /* ClosureTests.swift */; };
 		440C6B42260694BE00803908 /* ClosureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440C6B41260694BE00803908 /* ClosureUITests.swift */; };
+		440C6B532606950400803908 /* SecondController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440C6B522606950400803908 /* SecondController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		440C6B3D260694BE00803908 /* ClosureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClosureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		440C6B41260694BE00803908 /* ClosureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureUITests.swift; sourceTree = "<group>"; };
 		440C6B43260694BE00803908 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		440C6B522606950400803908 /* SecondController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				440C6B21260694B900803908 /* SceneDelegate.swift */,
 				440C6B23260694B900803908 /* ViewController.swift */,
 				440C6B25260694B900803908 /* Main.storyboard */,
+				440C6B522606950400803908 /* SecondController.swift */,
 				440C6B28260694BD00803908 /* Assets.xcassets */,
 				440C6B2A260694BD00803908 /* LaunchScreen.storyboard */,
 				440C6B2D260694BD00803908 /* Info.plist */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				440C6B24260694B900803908 /* ViewController.swift in Sources */,
+				440C6B532606950400803908 /* SecondController.swift in Sources */,
 				440C6B20260694B900803908 /* AppDelegate.swift in Sources */,
 				440C6B22260694B900803908 /* SceneDelegate.swift in Sources */,
 			);
